@@ -7,18 +7,19 @@ This is a totally accessible procedure for creating a website on GitHub using th
 ## Prerequisites
 
 - Go to <https://github.com> and sign up for an account.
-- Go to<https://git-scm.com/book/en/v2>.
+- Go to<https://git-scm.com/book/en/v2> and bookmark that page.
 - Follow the first chapter there to install and set up git.
-- Install Hugo using the instructions at <https://gohugo.io/installation/>.
+- Install Hugo Extended using the instructions at <https://gohugo.io/installation/>.
+
 ## The Procedure
 
-### Set Up Your Repository
+### Set Up Your Repository On Github
 
 - Go to GitHub and create a repository there.
 - Copy the line that it shows as the repository URL to the clipboard by pressing the button.
 - Go to your PC and get a command line.
 
-## Set Up Your Local Repository
+## Set Up Your Local Repository and Website
 
 For this procedure, we will use SiteName to refer to the website you will create and UserName to refer to your user name on Github.
 
@@ -30,10 +31,21 @@ Creates a folder to hold your websites in case you want to make more than one.
 
 cd websites
 Switches into the websites directory
+```
+
+- Type `git clone`, press **SPACE**, then paste from the clipboard and press **ENTER**.
+- This sets up the repository you made from Github on your local computer.
+- Type `cd ..`
+- This backs you out one directory.
 
 hugo new site website
+Creates the site in the directory you made.
 
  cd website
+Go into the website you made.
+
+git checkout -b gh-pages
+
 
 git add .
 
@@ -91,3 +103,10 @@ git commit -m "Updated website"
 
 git push
 ```
+echo "# LogicProWithVO" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/jhomme/LogicProWithVO.git
+git push -u origin main
