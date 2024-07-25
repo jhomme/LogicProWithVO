@@ -1,0 +1,120 @@
+title = "The United States Blind Chess Association"
+baseURL = "https://.usblindchess.org/"
+languageCode = "en-us"
+# enableInlineShortcodes = "false"
+# dailyPuzzle = "<p><iframe src='https://lichess.org/training/frame?theme=brown&bg=dark' style='width: 400px; height: 444px;' allowtransparency='true' frameborder='0' title='LiChess Daily Puzzle'></iframe></p>"
+
+# [markup]
+# [markup.goldmark.renderer]
+# unsafe = "true"
+
+Description = "The official website of the United States Blind Chess Association"
+# enableGitInfo = "true"
+# theme = "basic"
+# googleAnalytics = ""
+# [permalinks]
+# blog = "/:filename/"
+
+[Params]
+tdName = "Mario Montalvo"
+tdEmail = "superfoxpro@gmail.com"
+tdPhone = "832-997-2511"
+author = "The United States Blind Chess Association"
+
+[[menu.main]]
+	name = "Home"
+identifier = "Home"
+	url = "/"
+weight = -100
+
+[[menu.main]]
+ 	name = "Frequently Asked Questions"
+identifier = "Faq"
+	url = "/faq/"
+weight = -90
+
+[[menu.main]]
+	name = "Membership Information"
+identifier = "Membership"
+	url = "/membership/"
+weight = -80
+
+[[menu.main]]
+ 	name = "Challenger, Magazine of the United States Blind Chess Association"
+identifier = "Challenger"
+ 	url = "/challenger/"
+weight = -70
+
+[[menu.main]]
+name = "Contact"
+	identifier = "Contact"
+url = "/contact/"
+ 	weight = -60
+
+[[menu.main]]
+ 	name = "Donate"
+identifier = "Donate"
+	url = "/donate/"
+weight = 10
+
+[[menu.main]]
+ 	name = "Chess Resources"
+identifier = "Resources"
+	url = "/resources/"
+weight = 20
+
+[[menu.main]]
+	name = "The Rules Of Chess"
+identifier = "Rules"
+	url = "/rules/"
+weight = 30
+
+[[menu.main]]
+	name = "The Rules Of Chess Adapted For Blind and Visually Impaired People"
+identifier = "Rules2"
+	url = "/rules2/"
+weight = 30
+
+[[menu.main]]
+	name = "Tournament Information"
+identifier = "Tournaments"
+	url = "/tournaments/"
+weight = 40
+
+	 [[menu.main]]
+	name = "Division Tournament Standings"
+identifier = "standings"
+	url = "/standings/"
+weight = 50
+
+[[menu.main]]
+	name = "Ladder Tournament Standings"
+identifier = "ladder standings"
+	url = "/ladder-standings/"
+weight = 55
+
+[[menu.main]]
+	name = "Realtime and Correspondence Ratings"
+identifier = "Ratings"
+	url = "/ratings/"
+weight = 60
+
+	[[menu.main]]
+name = "Algebraic Notation"
+	identifier = "chess notation"
+url = "/chess-notation/"
+	weight = 70
+
+[[menu.main]]
+	name = "LiChess Tutorial"
+identifier = "LiChess Tutorial"
+url = "/lichess-tutorial/"
+	weight = 90
+
+[[menu.main]]
+	name = "Board Meeting Minutes"
+identifier = "board minutes"
+url = "/minutes/"
+	weight = 100
+
+
